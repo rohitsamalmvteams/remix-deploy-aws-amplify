@@ -93,8 +93,9 @@ $ touch deploy-manifest.json
     }
   ]
 }
+# In this git I've pushed the .amplify-hosting just to show you how it would look like but make that folder at the time of deployment on the server. Don't push this on your git like we don't push build files
 
-# Create a post-build script or you can run these commands on terminal
+# Create a post-build script
 
 $ mkdir bin
 $ touch bin/postbuild.sh
