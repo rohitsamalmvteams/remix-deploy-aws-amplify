@@ -88,8 +88,7 @@ $ touch deploy-manifest.json
     {
       "name": "default",
       "runtime": "nodejs18.x",
--      "entrypoint": "index.js"
-+      "entrypoint": "server.js"
+     "entrypoint": "server.js"
     }
   ]
 }
